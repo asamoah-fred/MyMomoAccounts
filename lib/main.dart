@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_accounts/nav.dart';
-import 'package:my_accounts/views/bottom_nav.dart';
-import 'package:my_accounts/views/for.dart';
+import 'package:my_accounts/views/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +18,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white,
         // This trailing comma makes auto-formatting nicer for build methods.
       ),
-      home: const BottomNavBar(),
+      home: const HomePage(),
     );
   }
 }
